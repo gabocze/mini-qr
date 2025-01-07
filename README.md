@@ -40,15 +40,11 @@ Batch data export is also now supported.
 
 https://github.com/user-attachments/assets/fef17e6a-c226-4136-9501-8d3e951671e0
 
-## Self-hosting with Docker 🐋
+## Starting with Docker 🐋
 
-Mini-QR can easily be self-hosted. We provide a [docker-compose.yml](docker-compose.yml) file as well as our own images. We are using GitHub's `ghrc.io` Container Registry.
-
-```bash
-wget https://github.com/lyqht/mini-qr/raw/main/docker-compose.yml
-
-docker compose up -d
-```
+1. Clone with Git.
+2. `cd` to the directory of the cloned repo.
+3. `docker compose up -d`
 
 ## Contributing
 
