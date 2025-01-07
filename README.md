@@ -40,11 +40,18 @@ Batch data export is also now supported.
 
 https://github.com/user-attachments/assets/fef17e6a-c226-4136-9501-8d3e951671e0
 
-## Starting with Docker 🐋
+## Starting with Docker on Windows 🐋
 
 1. Clone with Git.
 2. `cd` to the directory of the cloned repo.
-3. `docker compose up -d`
+3. Run `mini-qr.cmd` (script supplied by the cloned repo).
+
+### Schedule the Script
+Use Task Scheduler in Windows to run the script at system startup.
+1. Open Task Scheduler from the Start menu.
+2. Create a new task and set the trigger to “At startup”.
+3. In the “Actions” tab, create a new action to start a program.
+4. Set the program/script to _PATH and SCRIPT NAME_ of `mini-qr.cmd` (script supplied by the cloned repo).
 
 ## Contributing
 
